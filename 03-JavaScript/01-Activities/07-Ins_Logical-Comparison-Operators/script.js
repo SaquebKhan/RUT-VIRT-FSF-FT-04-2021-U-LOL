@@ -3,31 +3,31 @@ var b = 10;
 var c = "10";
 
 // Arithmetic operators combine with numbers to form an expression that returns a single number
-console.log(a + b);
-console.log(a - b);
-console.log(a / b);
-console.log(a * b);
+console.log(a + b); // 110
+console.log(a - b); // 90
+console.log(a / b); // 10
+console.log(a * b); // 1000
 
 // Modulus returns the remainder between two numbers.  
-console.log(a % b);
+console.log(a % b); // 0
 
 // Comparison operators combine with strings, booleans and numbers to form an expression that evaluates to true or false
 // Compares equality
 
-console.log(b == c);
-console.log(b != c);
+console.log(b == c); // true
+console.log(b != c); // false
 
 // Compares equality and type (strict equality)
-console.log(b === c);
-console.log(b !== c);
+console.log(b === c); // false
+console.log(b !== c); // true
 
 // Greater than or less than
-console.log(a > b);
-console.log(a < b);
+console.log(a > b); // true
+console.log(a < b); // false
 
 // Greater than or equal to and less than or equal to
-console.log(a <= b);
-console.log(a >= b);
+console.log(a <= b); // false
+console.log(a >= b); // true
 
 // Logical operators take in two or more expressions and return true or false 
 var expression1 = (b == c);
