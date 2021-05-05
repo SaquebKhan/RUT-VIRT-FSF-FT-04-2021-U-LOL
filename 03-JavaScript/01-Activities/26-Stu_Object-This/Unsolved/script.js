@@ -20,3 +20,7 @@ var investor = {
     },
   },
 };
+
+helloThis();
+child.ageTenYears();
+investor.investment.investmentGrowth();
