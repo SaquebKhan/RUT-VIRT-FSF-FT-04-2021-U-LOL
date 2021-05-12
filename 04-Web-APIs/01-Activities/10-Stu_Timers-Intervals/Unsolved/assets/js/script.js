@@ -13,7 +13,16 @@ function countdown() {
     //
     // YOUR CODE HERE
     //
-  });
+    timeLeft--;
+    if (timeLeft > 0) {
+      timerEl.textContent = timeLeft + " seconds remaining"; 
+    }
+    else { 
+      timerEl.textContent = "";
+      clearInterval (timeInterval); 
+      displayMessage();
+      }
+  }, 1000);
 }
 
 // Displays the message one word at a time
@@ -31,7 +40,7 @@ function displayMessage() {
       mainEl.textContent = words[wordCount];
       wordCount++;
     }
-  }, 1000);
+  }, 500);
 }
 
 countdown();

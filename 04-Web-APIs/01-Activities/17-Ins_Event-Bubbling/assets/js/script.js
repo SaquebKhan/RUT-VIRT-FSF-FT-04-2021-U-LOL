@@ -4,6 +4,8 @@ var button = document.querySelector(".button");
 
 function changeBlue(event) {
   // event.stopPropagation();
+  console.log(event);
+  
   event.currentTarget.setAttribute(
     "style",
     "background-color: blue"

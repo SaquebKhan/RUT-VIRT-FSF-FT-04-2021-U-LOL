@@ -3,7 +3,9 @@
 
 // TODO: Create a `<p>` element that will store an author's name and assign that created element to a new variable
 
+
 // TODO: Add the following text to the newly created `<p>` element: "~ Carol Dweck"
+arthorEL.text("~ Carol Dweck");
 
 // TODO: Add the class `plain` to the author element
 
