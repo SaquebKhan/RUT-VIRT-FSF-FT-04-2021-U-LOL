@@ -11,6 +11,16 @@ function getApi() {
     .then(function (data) {
       // Use the console to examine the response
       console.log(data);
+
+      for (var i = 0; i < data.length; i++){
+        var userNameEl = document.createElement('h3');
+        var userUrlEl = document.createElement("p");
+
+        userNameEl.textContent = data[i].login;
+        userUrlEl.textContent = data[i].html_url;
+
+        userContainer.append(userNameEl), userUrlEl, "-----------)"
+      }
       // TODO: Loop through the data and generate your HTML
     });
 }

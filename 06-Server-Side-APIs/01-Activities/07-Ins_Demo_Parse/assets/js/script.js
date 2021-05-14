@@ -1,3 +1,6 @@
+var urlData = 'https://api.github.com/orgs/twitter/public_members';
+var urlRepos = 'https://api.github.com/orgs/twitter/repos';
+
 fetch('https://api.github.com/orgs/twitter/public_members')
   .then(function (response) {
     return response.json();
